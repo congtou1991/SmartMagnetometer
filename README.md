@@ -2,7 +2,7 @@ SmartMagnetometer
 ===================  
 ## 基于ESP8266组建的智能安防系统  
 ### [PHP端说明](#smartmagnetometer-10)
-### [arduino代码说明](/WiFiClient1.0/README.md)
+### [arduino代码说明](#wificlient-10)
 
 ## 主要硬件部分：  
 * 1、NodeMcu ESP8266开发板
@@ -53,7 +53,7 @@ SmartMagnetometer
 > 需要修改以下文件才能正常使用：  
 > 阿里大于配置部分，需要先注册“阿里大于”账号后，新建对应的短信模板和短信签名，等待后台审核通过，即可获取“模板ID”、“短信签名”、“appkey”、“appsecret”
 
-1、 [\Application\Common\Conf\config.php](Application/Common/Conf/config.php)
+1、 [\Application\Common\Conf\config.php](/PHP/Application/Common/Conf/config.php)
 ```PHP
 //数据库配置信息
 'DB_TYPE'   => 'mysql', // 数据库类型
@@ -68,7 +68,7 @@ SmartMagnetometer
 'AlidayuApiEnv'    => 1, // api请求地址，1为正式环境，0为沙箱环境
 ```
 
-2、[\Application\Home\Controller\IndexController.class.php](Application/Home/Controller/IndexController.class.php)
+2、[\Application\Home\Controller\IndexController.class.php](/PHP/Application/Home/Controller/IndexController.class.php)
 
 第29、30、31行  微信公众号配置：
 > 这部分配置信息需要登陆公众号后台获取
