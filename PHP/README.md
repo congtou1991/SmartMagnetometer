@@ -11,11 +11,21 @@ SmartMagnetometer 1.0
 > 需要修改以下文件才能正常使用：
 
 1、 [\Application\Common\Conf\config.php](Application/Common/Conf/config.php)
+```PHP
+//数据库配置信息
+'DB_TYPE'   => 'mysql', // 数据库类型
+'DB_HOST'   => 'localhost', // 服务器地址
+'DB_NAME'   => '', // 数据库名
+'DB_USER'   => '', // 用户名
+'DB_PWD'    => '', // 密码
+'DB_PORT'   => 3306, // 端口
+//阿里大于配置信息
+'AlidayuAppKey'    => '',  // app key
+'AlidayuAppSecret' => '',  // app secret
+'AlidayuApiEnv'    => 1, // api请求地址，1为正式环境，0为沙箱环境
+```
 
-  配置相应数据库信息
-  配置阿里大于信息
-
-\Application\Home\Controller\IndexController.class.php
+2、[\Application\Home\Controller\IndexController.class.php](Application/Home/Controller/IndexController.class.php)
 
 第29、30、31行  微信公众号配置
 
