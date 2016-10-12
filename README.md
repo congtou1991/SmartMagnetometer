@@ -1,7 +1,7 @@
 SmartMagnetometer
 ===================  
 ## 基于ESP8266组建的智能安防系统  
-### [PHP端说明](/PHP/README.md)
+### [PHP端说明](#smartmagnetometer-10)
 ### [arduino代码说明](/WiFiClient1.0/README.md)
 
 ## 主要硬件部分：  
@@ -39,8 +39,8 @@ SmartMagnetometer
 
 > 由于公众号主动推送功能需要通过认证才能使用，所以没有进行这部分开发。  
 
-
-## SmartMagnetometer 1.0
+# PHP端说明：
+# SmartMagnetometer 1.0
 ===============
 ##简介
 本服务端基于ThinkPHP3.2.3开发而成，集成了微信公众号类(麦当苗儿版本)和阿里大于短信发送API，能实现警报信息短信推送和使用微信公众平台对主机状态查询、房间状态查询、开/关报警等的相关操作。
