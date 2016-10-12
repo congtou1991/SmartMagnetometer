@@ -1,10 +1,10 @@
-# SmartMagnetometer
-基于ESP8266组建的智能安防系统
-
-主要硬件部分：
-1、NodeMcu ESP8266开发板
-2、干簧管传感器
-3、磁铁
+SmartMagnetometer
+===================  
+##基于ESP8266组建的智能安防系统  
+## 主要硬件部分：  
+* 1、NodeMcu ESP8266开发板
+* 2、干簧管传感器
+* 3、磁铁
 
 PHP后端：
 1、ThinkPHP框架
