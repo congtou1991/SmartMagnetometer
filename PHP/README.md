@@ -9,7 +9,7 @@ SmartMagnetometer 1.0
 
 ##配置
 > 需要修改以下文件才能正常使用：
-1、 [\Application\Common\Conf\config.php](Application/Common/Conf/config.php)
+* 1、 [\Application\Common\Conf\config.php](Application/Common/Conf/config.php)
 
   配置相应数据库信息
   配置阿里大于信息
