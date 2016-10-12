@@ -31,6 +31,7 @@ SmartMagnetometer 1.0
 
 第29、30、31行  微信公众号配置：
 > 这部分配置信息需要登陆公众号后台获取
+
 ```PHP
 $appid = ''; //AppID(应用ID)
 $token = ''; //微信后台填写的TOKEN
