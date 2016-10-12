@@ -44,7 +44,7 @@ $req = $request->setSmsTemplateCode('模板ID')  //填入阿里大于短信模�
 ```PHP
 ->setSmsFreeSignName('')  //阿里大于短信签名
 ```
-如需传入短信变量则需要修改第100行中的相应数组，具体参考阿里大于API文档：
+如需传入短信变量则需要修改第100行中的相应数组，具体参考[阿里大于API文档](https://api.alidayu.com/doc2/apiDetail?spm=a3142.7791109.1999204071.20.jjrCHe&apiId=25450)：
 ```PHP
 // 短信内容参数
         $smsParams = [
