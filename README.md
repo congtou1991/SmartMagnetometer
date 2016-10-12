@@ -1,7 +1,7 @@
 SmartMagnetometer
 ===================  
 ## 基于ESP8266组建的智能安防系统  
-### [PHP端说明]()
+### [PHP端说明](/PHP/README.md)
 ### [arduino代码说明](/WiFiClient1.0/README.md)
 
 ## 主要硬件部分：  
