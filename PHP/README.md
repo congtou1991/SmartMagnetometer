@@ -56,6 +56,6 @@ $req = $request->setSmsTemplateCode('模板ID')  //填入阿里大于短信模�
 if(I('get.key') == "填入key"){  //和arduino程序里面的KEY对应
 ```
 ##数据库
-* 需要用到的数据库文件：
-[anfang.sql](anfang.sql)
-直接导入到MYSQL数据库即可使用
+> 需要用到的数据库文件：
+ [anfang.sql](anfang.sql)
+ 直接导入到MYSQL数据库即可使用
