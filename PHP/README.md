@@ -8,8 +8,7 @@ SmartMagnetometer 1.0
 * 带MYSQL数据库
 
 >需要修改以下文件才能正常使用：
-
-\Application\Common\Conf\config.php
+>\Application\Common\Conf\config.php
 
   配置相应数据库信息
   配置阿里大于信息
