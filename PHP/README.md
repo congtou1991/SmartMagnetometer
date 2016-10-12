@@ -9,7 +9,7 @@ SmartMagnetometer 1.0
 
 ##配置
 > 需要修改以下文件才能正常使用：
-
+> 阿里大于配置部分，需要先注册“阿里大于”账号后，新建对应的短信模板和短信签名，等待后台审核通过，即可获取“模板ID”、“短信签名”、“appkey”、“appsecret”
 1、 [\Application\Common\Conf\config.php](Application/Common/Conf/config.php)
 ```PHP
 //数据库配置信息
@@ -33,12 +33,10 @@ $appid = ''; //AppID(应用ID)
 $token = ''; //微信后台填写的TOKEN
 $crypt = ''; //消息加密KEY（EncodingAESKey）
 ```
-
 第106行  阿里大于短信模板ID：
 ```PHP
 $req = $request->setSmsTemplateCode('模板ID')  //填入阿里大于短信模板ID
 ```
-
 第109行  阿里大于短信签名：
 ```PHP
 ->setSmsFreeSignName('')  //阿里大于短信签名
