@@ -27,12 +27,31 @@ SmartMagnetometer 1.0
 
 2、[\Application\Home\Controller\IndexController.class.php](Application/Home/Controller/IndexController.class.php)
 
-第29、30、31行  微信公众号配置
+第29、30、31行  微信公众号配置：
+```PHP
+$appid = ''; //AppID(应用ID)
+$token = ''; //微信后台填写的TOKEN
+$crypt = ''; //消息加密KEY（EncodingAESKey）
+```
 
-第106行  阿里大于短信模板ID
+第106行  阿里大于短信模板ID：
+```PHP
+$req = $request->setSmsTemplateCode('模板ID')  //填入阿里大于短信模板ID
+```
 
-第109行  阿里大于短信签名
-
-如需传入短信变量则需要修改第100行中的相应数组，具体参考阿里大于API文档
-
-第122、199行  和arduino程序对应的KEY
+第109行  阿里大于短信签名：
+```PHP
+->setSmsFreeSignName('')  //阿里大于短信签名
+```
+如需传入短信变量则需要修改第100行中的相应数组，具体参考阿里大于API文档：
+```PHP
+// 短信内容参数
+        $smsParams = [
+            //'code'    => $this->randString(),
+            //'name' => $name  //接收方用户名
+        ];
+```
+第122、199行  和arduino程序对应的KEY：
+```PHP
+if(I('get.key') == "填入key"){  //和arduino程序里面的KEY对应
+```
