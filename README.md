@@ -100,7 +100,7 @@ if(I('get.key') == "填入key"){  //和arduino程序里面的KEY对应
 ```
 ##数据库
 > 需要用到的数据库文件：
- [anfang.sql](anfang.sql)
+ [anfang.sql](/PHP/anfang.sql)
  直接导入到MYSQL数据库即可使用
 
 # arduino代码说明：
