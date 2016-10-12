@@ -9,7 +9,9 @@ SmartMagnetometer 1.0
 
 ##配置
 > 需要修改以下文件才能正常使用：
+
 > 阿里大于配置部分，需要先注册“阿里大于”账号后，新建对应的短信模板和短信签名，等待后台审核通过，即可获取“模板ID”、“短信签名”、“appkey”、“appsecret”
+
 1、 [\Application\Common\Conf\config.php](Application/Common/Conf/config.php)
 ```PHP
 //数据库配置信息
