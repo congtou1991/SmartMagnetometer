@@ -111,7 +111,7 @@ void handshaking(){
   }
   
   // We now create a URI for the request
-  String url = "/af/index.php/Home/";
+  String url = "/index.php/Home/";
   url += controller;
   url += "/";
   url += wdaction;
@@ -152,7 +152,7 @@ void RS1_up(){
   }
   
   // We now create a URI for the request
-  String url = "/af/index.php/Home/";
+  String url = "/index.php/Home/";
   url += controller;
   url += "/";
   url += action;
