@@ -1,6 +1,7 @@
 SmartMagnetometer
 ===================
 ![](wechat-demo.gif)
+![](sms.gif)
 
 ## 基于ESP8266组建的智能安防系统  
 * [PHP端说明](#smartmagnetometer-10)
