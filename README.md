@@ -6,7 +6,7 @@ SmartMagnetometer
 ## 基于ESP8266组建的智能安防系统  
 * [->PHP端说明](#smartmagnetometer-10)
 * [->arduino代码说明](#wificlient-10)
-* [->公众号自定义菜单创建]()
+* [->公众号自定义菜单创建](#Wechat-10)
 
 ## 主要硬件部分：  
 * 1、NodeMcu ESP8266开发板
@@ -127,10 +127,12 @@ const char* Key = "******"; //校验KEY，与PHP服务端中设置的KEY对应
 int RS_1 = D5;  //感应器输入端口 这里对应NodeMcu开发板的GPIO14口
 ```
 # 公众号自定义菜单创建说明：
+# Wechat
 ![](wxgongzong.jpg)  
 首先登陆公众平台的后台，在“开发”-“基本配置”中找到"AppID"和"AppSecret"替换下面网址中对应的信息，然后复制到浏览器打开它
-> https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=替APPID换&secret=替APPSECRET换  
-
+```HTML
+https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=APPID&secret=APPSECRET
+```
 在打开后的网页中，将得到一个ACCESS_TOKEN，复制它(复制后千万不要刷新网页或者其他操作，直接关闭这个网页。一但刷新网页，ACCESS_TOKEN就被刷新了，之前复制的就会失效；获得的ACCESS_TOKEN有效期是7200秒，过期就要重新获取)  
 
 修改[/PHP/addmenu.php](/PHP/addmenu.php)中的ACCESS_TOKEN
